@@ -1,0 +1,34 @@
+# Flask and related libraries
+flask==2.2.5
+flask-cors==3.0.10
+requests==2.31.0
+
+# Streamlit
+streamlit==1.25.0
+
+# OpenAI and Transformers for AI functionality
+openai==0.28.0
+transformers==4.32.1
+
+# FAISS for similarity search
+faiss-cpu==1.7.4
+
+# PDF Processing
+PyPDF2==3.0.1
+
+# NLP and Embeddings
+spacy==3.6.1
+nltk==3.8.1
+sentence-transformers==2.2.2
+
+# Numerical Computation
+numpy==1.24.3
+torch==2.0.1
+
+# Additional requirements
+scipy==1.11.3
+tqdm==4.66.1
+
+# SpaCy model installation (comment for users)
+# After installing, run:
+# python -m spacy download en_core_web_sm
