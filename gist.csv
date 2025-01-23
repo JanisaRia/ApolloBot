@@ -1,0 +1,6 @@
+Feature,Sentence Transformer,OpenAI Ada
+Output Format,Single paragraph with inline numbering,Numbered list with clear formatting
+Readability,Slightly harder to follow due to dense paragraph format,Easy to follow due to structured points
+Personalization,Concise but less conversational,Natural and conversational tone
+Information Density,More compact but potentially harder to skim,Balanced between clarity and completeness
+Suitability for UI,"Suitable, but may need additional formatting for clarity",Highly suitable for chatbot interfaces
