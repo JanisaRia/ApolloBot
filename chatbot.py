@@ -139,12 +139,12 @@ def get_chatbot_response(user_query, context):
     try:
         client = openai.Client(api_key=OPENAI_API_KEY)
         response = client.chat.completions.create(
-            model="gpt-3.5-turbo",
+            model=GPT_MODEL,
             messages=[
                 {"role": "system", "content": prompt}                
             ],
-            max_tokens=2500,
-            temperature=0  # Ensuring factual and structured responses
+            max_tokens=GPT_MAX_TOKENS,
+            temperature=GPT_TEMPERATURE  # Ensuring factual and structured responses
         )
         return response.choices[0].message.content
     except Exception as e:
