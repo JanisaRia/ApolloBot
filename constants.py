@@ -1,4 +1,4 @@
-"""constants.py - Stores reusable values to avoid hardcoding."""
+"""constants.py - Stores reusable values"""
 
 # OpenAI API Key (replace with env variables in production)
 OPENAI_API_KEY = "your-openai-api-key"
