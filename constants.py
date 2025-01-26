@@ -14,9 +14,9 @@ BATCH_SIZE = batch_size
 FAISS_TOP_K = top_number  # Number of top results to retrieve
 
 # Chatbot Model
-GPT_MODEL = "gpt-3.5-turbo"
+GPT_MODEL = "gpt-model"
 GPT_MAX_TOKENS = 250
-GPT_TEMPERATURE = 0.0  # Lower value for factual responses
+GPT_TEMPERATURE = 0.2  # Lower value for factual responses
 
 CHATBOT_PROMPT = """
             You are a banking assistant chatbot for Apollo Bank. 
