@@ -53,41 +53,6 @@ The system follows a RAG (Retrieval-Augmented Generation) architecture:
    python -m spacy download en_core_web_sm
    ```
 
-5. Create a `constants.py` file with your configuration:
-   ```python
-   # API Keys
-   OPENAI_API_KEY = "your-openai-api-key"
-   
-   # Models
-   SENTENCE_TRANSFORMER_MODEL = "all-MiniLM-L6-v2"
-   OPENAI_ADA_MODEL = "text-embedding-ada-002"
-   GPT_MODEL = "gpt-3.5-turbo"
-   
-   # URLs
-   STREAMLIT_URL = "http://localhost:8501"
-   
-   # FAISS Config
-   FAISS_TOP_K = 5
-   
-   # Processing Parameters
-   BATCH_SIZE = 8
-   GPT_MAX_TOKENS = 500
-   GPT_TEMPERATURE = 0.3
-   
-   # System Prompt
-   CHATBOT_PROMPT = """
-   You are ApolloBot, an elite banking AI assistant. Answer the following user query 
-   based only on the provided document context. If the context doesn't contain relevant 
-   information, politely state that you don't have the information.
-   
-   USER QUERY: {user_query}
-   
-   DOCUMENT CONTEXT:
-   {doc_context}
-   
-   Be professional, concise, and accurate.
-   """
-   ```
 
 ## 🏃‍♂️ Running the Application
 
