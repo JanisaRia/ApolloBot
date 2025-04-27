@@ -2,8 +2,6 @@
 
 ApolloBot is an intelligent banking assistant that leverages natural language processing and semantic search to answer user questions based on official bank policy documents. This application uses a RAG (Retrieval-Augmented Generation) architecture to deliver accurate, context-aware responses based on the content of uploaded PDF documents.
 
-![ApolloBot Banner](https://via.placeholder.com/800x200?text=ApolloBot+Elite+Banking+AI)
-
 ## 🌟 Features
 
 - **Document Processing**: Upload and process official bank policy PDFs
